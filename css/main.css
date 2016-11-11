@@ -1,0 +1,16 @@
+html {
+	box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+.bottomb {
+  border-bottom: solid 1px;
+}
+
+@media only screen and (min-width: 60em) {
+
+}

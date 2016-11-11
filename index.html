@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Data table</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+<body>
+
+  <main class="island">
+    <div class="bottomb push">
+      <h1 class="bottomb push-0 pad-0">Want to go to Mars?</h1>
+    </div>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+
+    <h2 class="italic legend">Personal details</h2>
+
+
+    <div class="grid">
+
+      <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name">
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+        <label for="age">Age</label>
+        <input id="age" type="text" name="age">
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+        <label for="Email">Email</label>
+        <input id="Email" type="email" name="Email">
+      </div>
+      <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+        <label for="fitness">Physical Fitness</label>
+        <select id="fitness" name="_fitness">
+          <option>Super-human</option>
+          <option>Fit as a fiddle</option>
+          <option>Not terribly strong</option>
+          <option>A little couch-potato-y</option>
+        </select>
+      </div>
+        <div class="unit xs-1 s-1 m-1 l-1 xl-1">
+          <label for="address">Address</label>
+          <textarea id="address" type="text" name="address">
+          </textarea>
+
+          <h2>Mission statement</h2>
+          <label for="why">Why do you want to go to Mars?</label>
+          <textarea class="push align-center" id="why" type="text" name="why">
+          </textarea>
+
+          <div class="push text-center">
+            <button class="btn btn-dark" type="submit">Register for the trip!</button>
+          </div>
+        </div>
+  </main>
+</body>
+</html>
